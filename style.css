@@ -62,7 +62,7 @@ body {
 
 @media(max-width: 999px) {
   .wrapper .content {
-    width: 100%;
+    width: 98%;
   }
 
   .wrapper .content .title {

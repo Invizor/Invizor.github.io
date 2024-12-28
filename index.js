@@ -1,70 +1,199 @@
-const TIME_X = 1538352000 - 10800;
-const motivatorList = [
-  'Димон! Давай поднажми!',
-  'Сегодня пара задачек, завтра спец в кармане',
-  'Уже сдался? Готовишь коньячек?',
-  'К черту все! Берись и делай!',
-  'Дойдя до конца, люди смеются над страхами, мучившими их вначале.',
-  'Самое высокое наслаждение — сделать то, чего, по мнению других ты не можешь сделать.',
-  'Никогда не рассказывай людям о своих планах. Просто бери и делай. Пусть они удивляются от результатов, а не от болтовни'
-];
-
-document.getElementById("time").innerHTML = getStringTime();
-document.getElementById("footer").innerHTML = getMotivator();
-
-function declOfNum(number, titles)
-{
-  let cases = [2, 0, 1, 1, 1, 2];
-  return titles[ (number%100>4 && number%100<20)? 2 : cases[(number%10<5)?number%10:5] ];
+const questionsStruct = {
+  first: {
+    questions: [
+      {
+        text: 'Тестовый ответ',
+        number: 31,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 22,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 15,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 10,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 7,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 5,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 3,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ',
+        number: 1,
+        open: false,
+      }
+    ],
+    missFirst: 0,
+    missSecond: 0
+  },
+  second: {
+    questions: [
+      {
+        text: 'Тестовый ответ 2',
+        number: 31,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 22,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 15,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 10,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 7,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 5,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 3,
+        open: false,
+      },
+      {
+        text: 'Тестовый ответ 2',
+        number: 1,
+        open: false,
+      }
+    ],
+    missFirst: 0,
+    missSecond: 0
+  }
 }
 
-function getDiff() {
-  let currentDiff = TIME_X - (Date.now() / 1000);
-  if (currentDiff < 0) currentDiff = 0;
-  return currentDiff;
+let currentLevel = 'first';
+
+function calculate() {
+  const {questions, missFirst, missSecond} = questionsStruct[currentLevel];
+
+  const tableElem = document.getElementsByClassName('table')[0];
+  const itemElements = tableElem.getElementsByClassName('item');
+  const itemOpenedElements = tableElem.getElementsByClassName('item opened');
+
+  [...itemElements].forEach(el => el.remove());
+  [...itemOpenedElements].forEach(el => el.remove());
+
+  console.log("questions", questions);
+
+  for (let i = 0; i < questions.length; i++) {
+    if (!questions[i].open) {
+      tableElem.innerHTML += `<div class="item"><div class="text">${i+1}</div></div>`
+    } else {
+      tableElem.innerHTML += `<div class="item opened"><div class="text">${questions[i].text}</div><div class="number">${questions[i].number}</div></div>`
+    }
+  }
+
+  const missedLeftElemWrapper = document.getElementsByClassName('miss-left-wrapper')[0];
+  const missedLeftElements = missedLeftElemWrapper.getElementsByClassName('miss-left');
+
+  [...missedLeftElements].forEach(el => el.remove());
+
+  for (let i = 0; i < 3; i++) {
+    if (missFirst - 1 >= i) {
+      missedLeftElemWrapper.innerHTML += `<div class="miss-left selected">X</div>`
+    } else {
+      missedLeftElemWrapper.innerHTML += `<div class="miss-left">X</div>`
+    }
+  }
+
+  const missedRightElemWrapper = document.getElementsByClassName('miss-right-wrapper')[0];
+  const missedRightElements = missedRightElemWrapper.getElementsByClassName('miss-right');
+
+  [...missedRightElements].forEach(el => el.remove());
+
+  for (let i = 0; i < 3; i++) {
+    if (missSecond - 1 >= i) {
+      missedRightElemWrapper.innerHTML += `<div class="miss-right selected">X</div>`
+    } else {
+      missedRightElemWrapper.innerHTML += `<div class="miss-right">X</div>`
+    }
+  }
+
+  addEventListeners();
 }
 
-function prepareStringTime(day, hour, minute, second) {
-  let result = '';
-  if(day < 10) result += '0' + day; else result += day;
-  result += ' ' + declOfNum(day, ['день', 'дня', 'дней']);
-  result += ' : ';
-  if(hour < 10) result += '0' + hour; else result += hour;
-  result += ' ' + declOfNum(hour, ['час', 'часа', 'часов']);
-  result += ' : ';
-  if(minute < 10) result += '0' + minute; else result += minute;
-  result += ' ' + declOfNum(minute, ['минута', 'минуты', 'минут']);
-  result += ' : ';
-  if(second < 10) result += '0' + second; else result += second;
-  result += ' ' + declOfNum(second, ['секунда', 'секунды', 'секунд']);
-  return result;
+function addEventListeners() {
+  [...document.getElementsByClassName('miss-right')].forEach((elem, index) => {
+    elem.addEventListener('click', (ev) => {
+      questionsStruct[currentLevel].missSecond++;
+      calculate();
+    })
+  });
+
+  [...document.getElementsByClassName('miss-left')].forEach((elem, index) => {
+    elem.addEventListener('click', (ev) => {
+      questionsStruct[currentLevel].missFirst++;
+      calculate();
+    })
+  });
+
+  [...document.getElementsByClassName('item')].forEach((elem, index) => {
+    elem.addEventListener('click', (ev) => {
+      console.log("index", index);
+      questionsStruct[currentLevel].questions[index].open = !questionsStruct[currentLevel].questions[index].open;
+      calculate();
+    })
+  });
 }
 
-function getStringTime() {
-  let diff = getDiff();
-  let day = Math.floor(diff / (24*60*60));
-  diff = diff % (24*60*60);
-  let hour = Math.floor(diff / (60*60));
-  diff = diff % (60*60);
-  let minute = Math.floor(diff / 60);
-  diff = diff % 60;
-  let second = Math.floor(diff);
-  return prepareStringTime(day, hour, minute, second);
+function clearData() {
+  questionsStruct.first.missFirst = 0;
+  questionsStruct.first.missSecond = 0;
+  questionsStruct.first.questions.forEach(question => {
+    question.open = false;
+  })
+  questionsStruct.second.missFirst = 0;
+  questionsStruct.second.missSecond = 0;
+  questionsStruct.second.questions.forEach(question => {
+    question.open = false;
+  })
 }
 
-(() => {
-  setInterval(() => {
-    document.getElementById("time").innerHTML = getStringTime();
-  }, 1000);
-})();
+document.getElementsByClassName('first-level')[0].addEventListener('click', () => {
+  currentLevel = 'first';
+  clearData()
+  calculate();
+})
 
-function getRandomInt(min, max)
-{
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+document.getElementsByClassName('second-level')[0].addEventListener('click', () => {
+  currentLevel = 'second';
+  clearData();
+  calculate();
+})
+
+calculate();
 
 
-function getMotivator() {
-  let randomValue = getRandomInt(0, motivatorList.length - 1);
-  return motivatorList[randomValue];
-}
+

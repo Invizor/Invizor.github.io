@@ -2,43 +2,53 @@ const questionsStruct = {
   first: {
     questions: [
       {
-        text: 'Тестовый ответ',
-        number: 31,
+        text: 'Ёлка/Сосна/Пихта/Ель',
+        number: 34,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
-        number: 22,
+        text: 'Общественные места/город/офис',
+        number: 14,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
-        number: 15,
-        open: false,
-      },
-      {
-        text: 'Тестовый ответ',
+        text: 'Квартира/дом/подъезд',
         number: 10,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
+        text: 'Транспорт',
+        number: 9,
+        open: false,
+      },
+      {
+        text: 'Себя/Детей',
+        number: 8,
+        open: false,
+      },
+      {
+        text: 'Помогите/устал/не знаю',
         number: 7,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
+        text: 'Песни от Игната',
+        number: 6,
+        open: false,
+      },
+      {
+        text: 'Новогодний стол/блюда',
         number: 5,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
-        number: 3,
+        text: 'Окна',
+        number: 4,
         open: false,
       },
       {
-        text: 'Тестовый ответ',
-        number: 1,
+        text: 'Кошки/собаки',
+        number: 3,
         open: false,
       }
     ],
@@ -48,43 +58,53 @@ const questionsStruct = {
   second: {
     questions: [
       {
-        text: 'Тестовый ответ 2',
-        number: 31,
+        text: 'Философия от Алефтины',
+        number: 19,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
-        number: 22,
+        text: 'Одежда/техника/мебель',
+        number: 18,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
-        number: 15,
+        text: 'Мужчина/отец детей',
+        number: 17,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
-        number: 10,
+        text: 'Что приготовить',
+        number: 13,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
+        text: 'Чем заняться/куда сходить',
+        number: 8,
+        open: false,
+      },
+      {
+        text: 'Профессия',
         number: 7,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
+        text: 'Поругаться или сдержаться',
+        number: 6,
+        open: false,
+      },
+      {
+        text: 'Не знаю',
         number: 5,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
-        number: 3,
+        text: 'Дети',
+        number: 4,
         open: false,
       },
       {
-        text: 'Тестовый ответ 2',
-        number: 1,
+        text: 'Карьера или дом',
+        number: 3,
         open: false,
       }
     ],

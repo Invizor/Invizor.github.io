@@ -4,173 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b10f96ee-4e99-4b22-a06f-5a7018a04060" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-10/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-10/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-10/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-3/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-4/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-6/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-8/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-1-9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-1/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-10/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-10/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-10/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-10/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-11/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-11/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-11/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-11/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-2/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-2/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-2/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-3/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-3/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-4/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-4/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-5/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-6/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-6/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-7/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-8/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-8/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-9/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-2-9/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-10/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-10/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-10/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-2/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-2/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-4/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-8/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-3-9/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-1/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-10/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-10/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-10/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-2/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-2/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-2/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-3/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-4/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-6/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-8/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-4-9/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-1/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-1/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-2/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-2/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-2/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-2/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-2/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-3/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-4/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-5/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-5/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-5/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-5/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-6/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-6/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-7/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-7/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-7/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-7/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-7/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-8/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-9/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-9/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/gde-logica/question-5-9/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gde-logica.css" beforeDir="false" afterPath="$PROJECT_DIR$/gde-logica.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gde-logica.html" beforeDir="false" afterPath="$PROJECT_DIR$/gde-logica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gde-logica.js" beforeDir="false" afterPath="$PROJECT_DIR$/gde-logica.js" afterDir="false" />
-    </list>
+    <list default="true" id="b10f96ee-4e99-4b22-a06f-5a7018a04060" name="Default" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,11 +84,11 @@
       <recent name="$PROJECT_DIR$/images/gde-logica/question-1-7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images/gde-logica/question-5-10" />
       <recent name="$PROJECT_DIR$/images/gde-logica/question-5-9" />
       <recent name="$PROJECT_DIR$/images/gde-logica/question-5-8" />
       <recent name="$PROJECT_DIR$/images/gde-logica/question-5-7" />
       <recent name="$PROJECT_DIR$/images/gde-logica/question-5-6" />
-      <recent name="$PROJECT_DIR$/images/gde-logica/question-5-5" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -279,7 +113,7 @@
       <workItem from="1535456729978" duration="655000" />
       <workItem from="1535484090094" duration="5102000" />
       <workItem from="1735413777049" duration="7100000" />
-      <workItem from="1766921902388" duration="24565000" />
+      <workItem from="1766921902388" duration="24963000" />
     </task>
     <servers />
   </component>

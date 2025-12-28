@@ -1,4 +1,4 @@
-let currentIndex = 41;
+let currentIndex = 1;
 
 const questions = [
     {

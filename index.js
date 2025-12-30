@@ -2,55 +2,35 @@ const questionsStruct = {
   first: {
     questions: [
       {
-        text: 'Ёлка/Сосна/Пихта/Ель',
-        number: 34,
+        text: 'Гречка',
+        number: 23,
         open: false,
       },
       {
-        text: 'Общественные места/город/офис',
-        number: 14,
+        text: 'Черный хлеб',
+        number: 21,
         open: false,
       },
       {
-        text: 'Квартира/дом/подъезд',
-        number: 10,
-        open: false,
-      },
-      {
-        text: 'Транспорт',
-        number: 9,
-        open: false,
-      },
-      {
-        text: 'Себя/Детей',
+        text: 'Кефир',
         number: 8,
         open: false,
       },
       {
-        text: 'Помогите/устал/не знаю',
+        text: 'Селедка',
         number: 7,
         open: false,
       },
       {
-        text: 'Песни от Игната',
+        text: 'Кваш. капуста',
         number: 6,
         open: false,
       },
       {
-        text: 'Новогодний стол/блюда',
+        text: 'Грибы маринованные',
         number: 5,
         open: false,
       },
-      {
-        text: 'Окна',
-        number: 4,
-        open: false,
-      },
-      {
-        text: 'Кошки/собаки',
-        number: 3,
-        open: false,
-      }
     ],
     missFirst: 0,
     missSecond: 0
@@ -58,55 +38,71 @@ const questionsStruct = {
   second: {
     questions: [
       {
-        text: 'Философия от Алефтины',
-        number: 19,
+        text: 'Пульт от ТВ',
+        number: 29,
         open: false,
       },
       {
-        text: 'Одежда/техника/мебель',
-        number: 18,
+        text: 'Мобильный/Смартфон',
+        number: 27,
         open: false,
       },
       {
-        text: 'Мужчина/отец детей',
-        number: 17,
+        text: 'Планшет/Ноутбук',
+        number: 16,
         open: false,
       },
       {
-        text: 'Что приготовить',
-        number: 13,
+        text: 'Еду/Напитки',
+        number: 10,
         open: false,
       },
       {
-        text: 'Чем заняться/куда сходить',
-        number: 8,
-        open: false,
-      },
-      {
-        text: 'Профессия',
+        text: 'Книгу',
         number: 7,
         open: false,
       },
       {
-        text: 'Поругаться или сдержаться',
+        text: 'Женщину',
         number: 6,
+        open: false,
+      }
+    ],
+    missFirst: 0,
+    missSecond: 0
+  },
+  third: {
+    questions: [
+      {
+        text: 'Ёлка',
+        number: 42,
         open: false,
       },
       {
-        text: 'Не знаю',
+        text: 'Дед мороз',
+        number: 26,
+        open: false,
+      },
+      {
+        text: 'Мандарины',
+        number: 14,
+        open: false,
+      },
+      {
+        text: 'Лошадь',
+        number: 11,
+        open: false,
+      },
+      {
+        text: 'Звезда',
         number: 5,
         open: false,
       },
       {
-        text: 'Дети',
-        number: 4,
+        text: 'Снежинка',
+        number: 2,
         open: false,
       },
-      {
-        text: 'Карьера или дом',
-        number: 3,
-        open: false,
-      }
     ],
     missFirst: 0,
     missSecond: 0
@@ -199,6 +195,11 @@ function clearData() {
   questionsStruct.second.questions.forEach(question => {
     question.open = false;
   })
+  questionsStruct.third.missFirst = 0;
+  questionsStruct.third.missSecond = 0;
+  questionsStruct.third.questions.forEach(question => {
+    question.open = false;
+  })
 }
 
 document.getElementsByClassName('first-level')[0].addEventListener('click', () => {
@@ -209,6 +210,12 @@ document.getElementsByClassName('first-level')[0].addEventListener('click', () =
 
 document.getElementsByClassName('second-level')[0].addEventListener('click', () => {
   currentLevel = 'second';
+  clearData();
+  calculate();
+})
+
+document.getElementsByClassName('third-level')[0].addEventListener('click', () => {
+  currentLevel = 'third';
   clearData();
   calculate();
 })

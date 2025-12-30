@@ -4,17 +4,20 @@
 
 html {
   margin: 0;
-  height: 100%;
+  min-height: 100vh;
 }
 
 body {
   margin: 0;
-  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .wrapper {
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   background-image: linear-gradient(90deg, #ea0202 50%, #0411da 50%);
   height: 100%;
 }
@@ -26,7 +29,7 @@ body {
   padding: 10px;
 }
 
-.first-level, .second-level {
+.first-level, .second-level, .third-level {
   display: flex;
   align-items: center;
   justify-content: center;
